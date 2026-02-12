@@ -1,1 +1,41 @@
-placholder
+Supplementary Materials
+
+These supplementary materials support the analyses reported in Validating Lemma-Based Frequency Bands in Spanish Through Morphological Complexity. All materials are publicly available in a GitHub repository to facilitate transparency and reproducibility.
+
+Repository Access
+
+The full set of data, scripts, and outputs is available at:
+
+https://github.com/drmattpettus/spanish-lemma-frequency-bands
+
+Contents
+
+The repository includes the following components:
+
+Frequency Data
+
+Raw frequency data from the SUBTLEX-ESP subtitle corpus
+
+Final lemma-based frequency bands used in the analyses
+
+Morphological Data
+
+Paradigm size estimates for each lemma derived from the Spanish AnCora treebank
+
+Scripts
+
+Scripts to construct lemma-based frequency bands
+
+Scripts to compute descriptive and inferential statistics
+
+Scripts to perform qualitative sanity checks
+
+Results
+
+Summary statistics corresponding to Table 1 in the article
+
+Statistical test outputs reported in the Results section
+
+Reproducibility
+
+All analyses can be reproduced by executing the scripts in numerical order. File naming conventions and output formats correspond directly to those referenced in the main text.
