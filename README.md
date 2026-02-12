@@ -57,14 +57,25 @@ scipy
 
 All file names and output formats correspond directly to those referenced in the manuscript.
 
-Data Sources
+Citation
 
-SUBTLEX-ESP subtitle corpus
+If you use this resource, please cite:
 
-Spanish AnCora treebank (Universal Dependencies)
+APA style:
 
-Users should ensure compliance with the licensing terms of the original corpora.
+Pettus, M.R.. (2026). Spanish lemma-based frequency bands with morphological validation (Version 1.0) [Data set]. GitHub. https://github.com/[USERNAME]/spanish-lemma-frequency-bands
 
-License
+(https://doi.org/10.5281/zenodo.18625674)
 
-This repository is released under the MIT License. See the LICENSE file for details.
+BibTeX:
+
+@dataset{yourlastname_year_spanishbands,
+  author       = {[Pettus], [Matthew R.]},
+  title        = {Spanish Lemma-Based Frequency Bands with Morphological Validation},
+  year         = {2026},
+  version      = {1.0},
+  publisher    = {GitHub},
+  url          = {https://github.com/drmattpettus/spanish-lemma-frequency-bands},
+  doi          = {[10.5281/zenodo.18625674)}
+}
+nder the MIT License. See the LICENSE file for details.
