@@ -1,0 +1,7 @@
+Spearman rank correlation
+rho	-0.384067
+p	0.000000e+00
+
+Kruskal-Wallis test
+H	2103.112337
+p	0.000000e+00
