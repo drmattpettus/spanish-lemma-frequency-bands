@@ -78,4 +78,5 @@ BibTeX:
   url          = {https://github.com/drmattpettus/spanish-lemma-frequency-bands},
   doi          = {[10.5281/zenodo.18625674)}
 }
-nder the MIT License. See the LICENSE file for details.
+
+Under the MIT License. See the LICENSE file for details.
