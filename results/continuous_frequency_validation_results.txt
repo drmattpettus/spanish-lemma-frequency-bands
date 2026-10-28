@@ -1,0 +1,21 @@
+CONTINUOUS FREQUENCY VALIDATION
+===============================
+
+N = 13871
+
+Spearman correlation
+rho = 0.38470722887085673
+p = 0.0
+
+Poisson diagnostics
+Deviance ratio = 1.0956354830863182
+Pearson ratio = 1.5525530043039568
+
+Negative binomial regression
+Coefficient = 0.3831637896798283
+Standard error = 0.0068828606188727996
+p = 0.0
+IRR = 1.466918276467758
+IRR lower CI = 1.447262195707657
+IRR upper CI = 1.4868413175008441
+Percent change = 46.6918276467758
