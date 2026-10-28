@@ -131,7 +131,7 @@ https://github.com/drmattpettus/spanish-lemma-frequency-bands
 
 The previously archived version is available through Zenodo:
 
-https://doi.org/10.5281/zenodo.18625674
+ https://doi.org/10.5281/zenodo.23744607 
 
 The updated repository will be archived as a revised Zenodo version incorporating the continuous-frequency validation.
 
