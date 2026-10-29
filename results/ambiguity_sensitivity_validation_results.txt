@@ -1,0 +1,29 @@
+AMBIGUITY SENSITIVITY ANALYSIS
+==================================================
+Lemmas analyzed: 13,871
+Ambiguous matched forms: 1,779
+Band changes: 3,111 (22.43%)
+
+ORIGINAL
+--------------------------------------------------
+Continuous Spearman rho: 0.384707
+Continuous Spearman p: 0.000000e+00
+Band Spearman rho: -0.384067
+Band Spearman p: 0.000000e+00
+Kruskal-Wallis H: 2103.112337
+Kruskal-Wallis p: 0.000000e+00
+Negative-binomial coefficient: 0.383164
+IRR: 1.466918
+95% CI: [1.447262, 1.486841]
+
+EQUAL ALLOCATION
+--------------------------------------------------
+Continuous Spearman rho: 0.387845
+Continuous Spearman p: 0.000000e+00
+Band Spearman rho: -0.387395
+Band Spearman p: 0.000000e+00
+Kruskal-Wallis H: 2149.307235
+Kruskal-Wallis p: 0.000000e+00
+Negative-binomial coefficient: 0.391937
+IRR: 1.479845
+95% CI: [1.459611, 1.500360]
