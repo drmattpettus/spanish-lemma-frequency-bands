@@ -123,6 +123,40 @@ The script reads the frequency and morphological paradigm-size datasets from `da
 
 The original band-based validation scripts and outputs remain available for reproducibility.
 
+## Ambiguity Sensitivity Analysis
+
+The original lemma-frequency construction assigns the full SUBTLEX-ESP frequency of each wordform to every matching lemma in the AnCora-derived lexicon. Because some wordforms correspond to multiple lemmas, this procedure can produce overlapping frequency allocations.
+
+To assess the robustness of the results, an alternative allocation procedure divides each ambiguous wordform's frequency equally among its distinct candidate lemmas.
+
+The analysis covers 13,871 Spanish lemmas and identifies 1,779 ambiguous matched wordforms. Equal allocation changes the frequency-band assignments of 3,111 lemmas (22.43%).
+
+| Statistic | Original allocation | Equal allocation |
+|---|---:|---:|
+| Continuous Spearman ρ | 0.384707 | 0.387845 |
+| Band Spearman ρ | −0.384067 | −0.387395 |
+| Kruskal–Wallis H | 2103.112337 | 2149.307235 |
+| Negative-binomial IRR | 1.466918 | 1.479845 |
+| IRR 95% CI | [1.447262, 1.486841] | [1.459611, 1.500360] |
+
+The results indicate that the aggregate relationship between lexical frequency and observed morphological paradigm size remains similar under equal allocation, although individual lemma rankings and band assignments are sensitive to ambiguity-handling decisions.
+
+### Reproducibility Files
+
+- `scripts/05_generate_ambiguity_analysis.py` — Reconstructs lemma frequencies, applies equal allocation, and runs the sensitivity analysis.
+- `results/ambiguity_impact_lemma_comparison.tsv` — Lemma-level comparison of original and alternative frequencies, ranks, and band assignments.
+- `results/ambiguity_sensitivity_validation_results.txt` — Statistical results for both allocation methods.
+
+Run the analysis from the repository root using:
+
+```bash
+python scripts/05_generate_ambiguity_analysis.py
+```
+
+The script requires the SUBTLEX-ESP frequency workbook, the AnCora UD train/dev/test files, the original lemma-frequency bands, and the morphological paradigm-size dataset. Required Python packages include `numpy`, `pandas`, `scipy`, `statsmodels`, and `openpyxl`.
+
+The equal-allocation procedure is a sensitivity test rather than a context-sensitive disambiguation method.
+
 ## Data and Code Availability
 
 The processed datasets, analysis scripts, and statistical results are available at:
